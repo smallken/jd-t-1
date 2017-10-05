@@ -16,6 +16,8 @@ resources :carts do
   end
 end
 
+resources :cart_items
+
   devise_for :users
 
 end
