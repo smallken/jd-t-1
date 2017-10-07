@@ -22,4 +22,8 @@ resources :cart_items
   devise_for :users
 
 resources :orders
+
+namespace :account do
+  resources :orders
+end
 end
