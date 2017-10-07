@@ -22,6 +22,7 @@ class Order < ApplicationRecord
   end
 
   include AASM
+
       aasm do
         state :order_placed, initial: true
         state :paid
